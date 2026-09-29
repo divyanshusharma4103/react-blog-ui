@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fefcf8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 35px;
+  font-size: 3rem;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+input,
+select {
+  padding: 14px 18px;
+  border: 2px solid #dbeafe;
+  border-radius: 12px;
+  font-size: 15px;
+  background: white;
+  transition: 0.3s;
+}
+
+input {
+  flex: 1;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 10px rgba(96, 165, 250, 0.2);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  border-top: 5px solid #60a5fa;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+}
+
+.card h2 {
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.category {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #eff6ff;
+  color: #2563eb;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #64748b;
+  line-height: 1.6;
+}

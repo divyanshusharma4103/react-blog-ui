@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "React Basics",
+    "category": "React",
+    "description": "Learn React from scratch."
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Guide",
+    "category": "JavaScript",
+    "description": "Complete JavaScript tutorial."
+  },
+  {
+    "id": 3,
+    "title": "CSS Tricks",
+    "category": "CSS",
+    "description": "Useful CSS tips and tricks."
+  },
+  {
+    "id": 4,
+    "title": "React Hooks",
+    "category": "React",
+    "description": "Learn useState and useEffect hooks."
+  }
+]
